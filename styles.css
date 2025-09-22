@@ -1168,3 +1168,29 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 365px) {
+  .content-header {
+    left: 18%;
+  }
+  .section-title {
+    padding: 16px;
+  }
+  .profile {
+    flex-direction: column;
+  }
+  .profile p {
+    text-align: center;
+  }
+  .client-bottom {
+    gap: 12px;
+  }
+  .client-card {
+    padding: 20px;
+  }
+  .footer-nav {
+    flex-wrap: wrap;
+  }
+  .sub-heading {
+    font-size: 22px;
+  }
+}
