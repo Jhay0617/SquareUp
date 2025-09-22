@@ -1195,4 +1195,11 @@
   .sub-heading {
     font-size: 22px;
   }
+  .navbar {
+    top: 13%;
+  }
+
+  .navbar.active {
+    top: 13%;
+  }
 }
