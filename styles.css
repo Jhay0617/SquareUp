@@ -1004,7 +1004,10 @@
   }
   .content-header {
     top: -7%;
-    left: 30%;
+    left: 35%;
+  }
+  .content-header p {
+    text-align: center;
   }
   .company-logo {
     grid-template-columns: 1fr 1fr;
@@ -1174,6 +1177,9 @@
 @media (min-width: 365px) and (max-width: 765px) {
   .content-header {
     left: 18%;
+  }
+  .content-header p {
+    text-align: center;
   }
   .section-title {
     padding: 16px;
