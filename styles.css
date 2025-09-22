@@ -44,6 +44,7 @@
     -moz-text-size-adjust: none;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
+    scroll-behavior: smooth;
   }
   body,
   h1,
@@ -991,6 +992,11 @@
   .for-starters-mobile {
     display: block;
   }
+  .client-bottom {
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .for-starters-mobile .subtext {
     text-align: center;
   }
@@ -1120,5 +1126,45 @@
   }
   .aboutus-left {
     width: 100%;
+  }
+  /* work page */
+
+  .link-description {
+    width: 100%;
+  }
+  .main-content {
+    padding: 0 20px 40px;
+  }
+  .link-description p {
+    font-size: 12px;
+  }
+  /* contact page */
+  .info-contact {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+  .contact-footer {
+    padding: 16px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact-footer .socials img {
+    width: 30px;
+    height: 30px;
+  }
+  .fullName-email {
+    flex-direction: column;
+  }
+  .message {
+    padding: 20px;
+  }
+  .budget-range {
+    padding: 20px 16px 60px 16px;
+  }
+  .check {
+    padding: 20px;
+  }
+  .check-container {
+    grid-template-columns: 1fr;
   }
 }
